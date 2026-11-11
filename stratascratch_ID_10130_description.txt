@@ -1,0 +1,35 @@
+Find the number of inspections for each risk category by inspection type  
+  
+A city health department wants to see how inspection outcomes break down by risk level for each type of inspection it runs.  
+Each inspection can have multiple violation records, and each record carries its own risk category (or none).  
+For each inspection, take the highest-severity risk category among its records —  
+ranked High Risk > Moderate Risk > Low Risk > no risk category —  
+and count that inspection once, under its inspection type, in the corresponding risk category.  
+  
+If none of an inspection's records have a risk category, count that inspection under its own no-risk-category bucket.  
+  
+Output the inspection type, the count of inspections in each risk category  
+(no risk category, low risk, moderate risk, high risk) as separate columns,  
+and the total number of inspections for that inspection type,  
+sorted by the total number of inspections per inspection type in descending order.  
+  
+DataFrames:  
+  
+- sf_restaurant_health_violations  
+business_id:int64  
+business_name:object  
+business_address:object  
+business_city:object  
+business_state:object  
+business_postal_code:float64  
+business_latitude:float64  
+business_longitude:float64  
+business_location:object  
+business_phone_number:float64  
+inspection_id:object  
+inspection_date:datetime64[ns]  
+inspection_score:float64  
+inspection_type:object  
+violation_id:object  
+violation_description:object  
+risk_category:object  
