@@ -1,0 +1,38 @@
+Reviews of Categories  
+  
+Calculate number of reviews for every business category.  
+  
+Output the category along with the total number of reviews.  
+Order by total reviews in descending order.  
+  
+DataFrames:  
+  
+- yelp_business  
+business_id:object  
+name:object  
+neighborhood:object  
+address:object  
+city:object  
+state:object  
+postal_code:object  
+latitude:float64  
+longitude:float64  
+stars:float64  
+review_count:int64  
+is_open:int64  
+categories:object  
+
+e.g.
+business_id:	G5ERFWvPfHy7IDAUYlWL2A  
+name:		All Colors Mobile Bumper Repair  
+neighborhood:	''  
+address:	7137 N 28th Ave  
+city:		Phoenix  
+state:		AZ  
+postal_code:	85051  
+latitude:	33.45  
+longitude:	-112.07  
+stars:		1.0  
+review_count:	4  
+is_open:	1  
+categories:	Auto Detailing;Automotive  
