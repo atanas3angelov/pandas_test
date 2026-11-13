@@ -1,0 +1,14 @@
+Counting Instances in Text  
+  
+Find the number of times the exact words bull and bear appear in the contents column.  
+  
+Count all occurrences, even if they appear multiple times within the same row.  
+Matches should be case-insensitive and only count exact words, that is, exclude substrings like bullish or bearing.  
+  
+Output the word (bull or bear) and the corresponding number of occurrences.  
+  
+DataFrames:  
+  
+- google_file_store
+filename:object  
+contents:object  
