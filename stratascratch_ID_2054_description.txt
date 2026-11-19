@@ -1,0 +1,10 @@
+Consecutive Days  
+  
+Find all the users who were active for 3 consecutive days or more.  
+  
+DataFrames:  
+  
+- sf_events  
+record_date:datetime64[ns]  
+account_id:object  
+user_id:object  
